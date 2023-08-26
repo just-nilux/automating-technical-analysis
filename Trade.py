@@ -78,7 +78,7 @@ def main(app_data):
     st.sidebar.subheader('Trading Volatility:')
     risk = st.sidebar.selectbox('', ('Low', 'Medium', 'High'), index = volitility_index)
 
-    st.title(f'Automated Technical Analysis.')
+    st.title(f'NILUX.AI')
     st.subheader(f'{label} Data Sourced from {exchange}.')
     st.info(f'Predicting...')
     
